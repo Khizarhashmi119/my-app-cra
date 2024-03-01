@@ -38,7 +38,7 @@ function App() {
     setSearchText(event.currentTarget.value);
 
   return (
-    <div className="app">
+    <div className={styles.app}>
       <input
         className={styles["search-input"]}
         type="search"
